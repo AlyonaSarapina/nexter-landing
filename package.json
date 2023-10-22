@@ -1,0 +1,14 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "author": "Alyona Sarapina",
+  "license": "ISC",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass -w scss/main.scss styles/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
